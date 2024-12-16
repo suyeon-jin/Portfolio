@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUJIFILM</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- remixicon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="IMAGE/후지필름 슬로건.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#world">신제품</a>
+            <a href="#koreajj">프로모션</a>
+            <a href="#themes">카메라</a>
+            <a href="#premium">렌즈</a>
+            <a href="#area">액세서리</a>
+            <a href="#airhotel">프로젝터</a>
+            <a href="#event">오리지널 굿즈</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-right">FUJIFILM</h3>
+            <p data-aos="fade-up">make MORE wiht LESS</p>
+            <a href="https://fujifilm-korea.co.kr/" class="btn">LEARN MORE</a>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- world section start -->
+    <section class="world" id="world">
+        <h1 class="heading"> <span>신</span>제품</h1>
+        <div class="row">
+            <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+                <div slot="container-start" class="parallax-bg"
+                    style="background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);"
+                    data-swiper-parallax="-23%">
+                </div>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="IMAGE/신제품1.JPG" alt="slide1">
+                        <div class="content">
+                            <h3>PHOTOGRAPHY FIRST <br>
+                                FUJIFILM X-T5</h3>
+                            <p>
+                                5세대 디바이스의 압도적인 해상도, <br>
+                                사진 촬영의 본질을 일깨우는 다어얼 조작, <br>
+                                기동성이 뛰어난 컴팩트 바디.<br>
+                                오롯이 사진에 집중한 카메라, X-T5 <br>
+                                Patrick La Ropue <br>
+                                X-T5는 그립이 깊어서 잡기가 편한데 기존 기종보다 더 작고 컴팩트합니다. <br>
+                                흥미로운 점은 이전 모델의 모든 기능과 특징을 유지하면서 새로운 40MP <br>
+                                센서를 추가했음에도 불구하고 이것을 이루었다는 점이죠.<br>
+
+                            </p>
+                            <a href="https://fujifilm-korea.co.kr/products/new" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="IMAGE/신제품2.jpg" alt="slide1">
+                        <div class="content">
+                            <h3>FUJIFILM X-T5</h3>
+                            <p>
+                                Bert Stephani <br>
+                                X-Processor 5 는 매우 빠르고 신뢰할 수 있는 새로운 AF 시스템을 <br>
+                                제공합니다. X-T5의 AF는 확실하기 때문에 개방조리개에 AF-C를 사용해서 <br>
+                                얼굴·눈동자 검출 기능에 기술적인 부분을 맡기고 저는 피사체에만 의식을 <br>
+                                집중시킬 수 있게 되었습니다.<br>
+                                Jakub Cejpek <br>
+                                X-Processor 5와 X-Trans™ CMOS 5 HR 4000만 화소 센서. 이 조합은<br>
+                                후지필름 APS-C 센서 최고의 화질을 실현합니다. 저는 디테일에 무척<br>
+                                감동했습니다.
+                            </p>
+                            <a href="https://fujifilm-x.com/ko-kr/stories/x-t5-x-bert-stephani/" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="IMAGE/신제품3.JPG" alt="slide1">
+                        <div class="content">
+                            <h3>Coming Soon</h3>
+                            <p>jimin yoo <br>
+                              순간을 포착하려다 보면, 한 손으로 촬영해야하는 순간도 많은데 빠르게 <br>
+                              전원을 키고 한 손 촬영을 하는데에 X-T5는 최적의 카메라였습니다. <br>
+                              센서 크기에 비해 화소가 높어 저조도에서의 노이즈가 걱정이 되었지만,<br>
+                              JPG파일임에도 불구하고 높은 ISO 감도에서도 노이즈 억제력이 생각보다 <br>
+                              훨씬 우수해 놀랐습니다.
+                            </p>
+                            <a href="https://fujifilm-x.com/ko-kr/stories/x-t5-x-jakub-cejpek/" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+
+        </div>
+    </section>
+    <!-- world section end -->
+
+    <!-- koreajj section start -->
+    <section class="koreajj" id="koreajj">
+        <h1 class="heading"><span>프로</span>모션</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="IMAGE/프로모션1.jpg" alt="k1">
+                <h3>후지필름 홈페이지&파티클<br>
+                    &에비뉴엘점 6월 이벤트</h3>
+                <p>후지필름 굿즈 런칭<br>
+                    강력추천! 사진찍는 즐거움을! <br>
+                    언제 어디서나 가볍고 즐겁게!</p>
+                <div class="price"><span>2023.06.01-2023.06.30</span></div>
+                <a href="https://fujifilm-korea.co.kr/products/promotion/id/10913" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <img src="IMAGE/프로모션2.jpg" alt="k1">
+                <h3>남과 다른 사진 스타일링 GFX &
+                   <br>
+                   GF Lens CASHBACK</h3>
+                <p>색감 표현이 뛰어나면서 남과 다르게 차별화된<br>
+                    사진 스타일링 가능한 GFX 미러리스! <br>
+                    지금 구매하면 합리적인 가격의 캐시백 </p>
+                <div class="price"><span>2023.05.28-2023.08.31</span></div>
+                <a href="https://fujifilm-korea.co.kr/products/promotion/id/10906" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <img src="IMAGE/프로모션3.jpg" alt="k1">
+                <h3>라지포맷으로 환승하기 좋은<br>
+                    GFX 50S II</h3>
+                <p>“최대 16% 할인 혜택 프로모션”<br>
+                    바디 단품 14% 4,299,000원<br>
+                    GF35-70 키트 16% 4,599,000원</p>
+                <div class="price"><span>2023.04.04-2023.07.03</span></div>
+                <a href="https://fujifilm-korea.co.kr/products/promotion/id/10844" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <img src="IMAGE/프로모션4.jpg" alt="k1">
+                <h3>[CASHBACK]<br>
+                    WILD WORLD LENS</h3>
+                <p>X-H2S를 보유하고 있거나 새로 구입한 고객 중 <br>
+                    야생 스포츠를 위한 줌 렌즈를 구매하고 <br>
+                    정품등록 및 이벤트 신청 완료 시 캐시백</p>
+                <div class="price"><span>2023.04.04-2023.07.10</span></div>
+                <a href="https://fujifilm-korea.co.kr/products/promotion/id/10843" class="btn">MORE</a>
+            </div>
+        </div>
+    </section>
+    <!-- koreajj section end -->
+
+    <!-- themes section start -->
+    <section class="themes" id="themes">
+        <h1 class="heading"><span>카메라</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="IMAGE/카메라1.png" alt="t1">
+                </div>
+                <div class="content">
+                    <h3>GFX100</h3>
+                    <h4>1억화소, 더 큰 세계의 경험<br>12,999,000원</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="IMAGE/카메라2.png" alt="t1">
+                </div>
+                <div class="content">
+                    <h3>GFX100S</h3>
+                    <h4>모두를 위한 라지포맷
+                        <br>7,999,000원</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="IMAGE/카메라3.png" alt="t1">
+                </div>
+                <div class="content">
+                    <h3>X-H2S</h3>
+                    <h4>영상을 위한 미러리스 카메라
+                        <br>3,340,000원</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- themes section end -->
+
+     <!-- premium section starts -->
+     <section class="premium" id="premium">
+        <h1 class="heading">
+           <span>렌즈</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                <img src="IMAGE/렌즈1.jpg" class="pre" alt=""></div>
+                <p>신뢰할 수 있는 자동 초점,<br>
+                    내구성이 뛰어난 내후성 디자인 <br>
+                    탁 트인 풍경, 건축물의 경이로움 또는 <br> 
+                    빠르게 움직이는 도시의 거리를 촬영</p>
+                <h3>GF23mm<br> F4 R LM WR</h3>
+                <a href="#" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="IMAGE/렌즈2.jpg" class="pre" alt=""></div>
+                    <p>24mm 화각은 많은 사람들이 광각 렌즈의<br> 
+                        표준으로 여기는 인기있는 화각입니다.<br> 
+                        주변부까지 선예도가 뛰어난 이 렌즈는, <br> 
+                        GFX 센서의 잠재력을 발휘하여 예술 작품으로 승화</p>
+                    <h3>GF30mm<br> F3.5 R WR</h3>
+                    <MORE href="#" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="IMAGE/렌즈3.jpg" class="pre" alt=""></div>
+                    <p>초점 거리 26mm의 다용도 광각 렌즈<br> 
+                        컴팩트하면서 가벼운 디자인으로<br> 
+                        거리 스냅 및 보도 사진 촬용에 안성맞춤<br> 
+                        프로 사진가들을 위한 이상적인 사진 도구</p>
+                    <h3>GF45mm<br> F2.8 R WR</h3>
+                    <a href="#" class="btn">MORE</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- premium section end -->
+
+    <!-- area section starts -->
+    <section class="area" id="area">
+        <h1 class="heading"><span>악세</span>서리</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">스트랩</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#">
+                            <img data-aos="fade-up" src="IMAGE/스트랩1.JPG" alt="">
+                        </a>
+                        <p>픽디자인 슬라이드 라이트 스트랩</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="#">
+                            <img data-aos="fade-up" src="IMAGE/스트랩2.JPG" alt="">
+                        </a>
+                        <p>픽디자인 슬라이드 라이트 스트랩</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">바디캡</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#"><img data-aos="fade-up" src="IMAGE/바디캡1-1.jpg" alt=""></a>
+                        <p>BCP-001/X 마운트 바디캡</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="#" target=”_blank”><img data-aos="fade-up" src="IMAGE/바디캡2-1.jpg" alt=""></a>
+                        <p>BCP-002/G 마운트 바디캡</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">인스탁스</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                       <a href="#"><img data-aos="fade-up" src="IMAGE/인스탁스.JPG" alt=""></a> 
+                        <p>instax mini 11/인스탁스 미니 11</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+            
+    </section>
+    <!-- area section end -->
+
+
+    <!-- airhotel section starts -->
+    <section class="airhotel" id="airhotel">
+        <h1 class="heading"><span>프로</span>젝터</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image1">
+                    
+                <div class="content">
+                    <div class="title">FP-Z60000</div>
+                    <span>초단초점투사...</span>
+                    
+                    <a href="#" target=”_blank” class="btn">예약하기</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image2">
+                
+                <div class="content">
+                    <div class="title">FP-Z50000</div>
+                    <span>초단초점투사...</span>
+                    
+                    <a href="#" target=”_blank” class="btn">예약하기</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- airhotel section end -->
+
+
+    <!-- event section starts -->
+    <section class="event" id="event">
+        <h1 class="heading">오리지널 <span>굿즈</span></h1>
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>조이&훌라 하트 티셔츠</h4>
+                    <p>조이와 홀라의 사랑스러운 모습이 담긴</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>조이&훌라 레디백</h4>
+                    <p>즐거운 여행! 소프트 미니 캐리어</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>X100V PAPER TYPE</h4>
+                    <p>X100V 종이 피규어</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>오하이오 아트 패브릭 포스터</h4>
+                    <p>후지필름코리아와 10주년 전시 아트</p>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="in">
+                    <h4>장가노 아트퍼즐</h4>
+                    <p>후지필름코리아 10주년 전시 아트</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event section end -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" target=”_blank” class="fab fa-facebook-f"></a>
+            <a href="#" target=”_blank” class="fab fa-k"></a>
+            <a href="#" target=”_blank” class="fab fa-instagram"></a>
+            <a href="#" target=”_blank” class="fab fa-youtube"></a>
+            <a href="#" target=”_blank” class="fab fa-b"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" target=”_blank”>회사소개</a>
+            <a href="#" target=”_blank”>이용약관</a>
+            <a href="#" target=”_blank”>개인정보처리방침</a>
+            <a href="#" target=”_blank”>사이트맵</a>
+            <a href="#" target=”_blank”>사업자정보확인</a>
+            <a href="#" target=”_blank”>에스크로 가입확인</a>
+            <a href="#" target=”_blank”>고객센터</a>
+        </div>
+
+        <div class="fin">
+            <p>상호명: 후지필름일렉트로닉이미징코리아(주) <br>
+            대표자명: 야마모토 마사토 <br>
+        사업자등록번호: 120-87-73486, 통신판매업신고: 2012-서울강남-01006</p>
+        </div>
+
+        <div class="credit">
+            created by <span>hr</span> | all rights reserved
+        </div>
+    </section>
+
+    <!-- footer section end -->
+    
+
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
