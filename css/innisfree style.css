@@ -25,7 +25,7 @@ header{
 }
 
 .title span{
-    color:  #15BF5F;
+    color:  #4F709C;
 }
 
 /* section */
@@ -62,7 +62,7 @@ section1{
 
 .design .web{
     overflow: scroll;
-    border: solid 1px #15BF5F;
+    border: solid 1px #4F709C;
     height: 500px;
     width: 800px;
     float: left;
@@ -74,7 +74,7 @@ section1{
 
 .design .web img{
     width: 100%;
-    border-top: 1px solid #15BF5F;
+    border-top: 1px solid #4F709C;
 }
 
 .mobile{
@@ -83,7 +83,7 @@ section1{
 
 .design .mobile{
     overflow: scroll;
-    border: solid 1px #15BF5F;
+    border: solid 1px #4F709C;
     height: 500px;
     width: 350px;
     float: left;
@@ -95,7 +95,7 @@ section1{
 
 .design .mobile img{
     width: 100%;
-    border-top: 1px solid # #15BF5F;
+    border-top: 1px solid #4F709C;
 }
 
 .web::-webkit-scrollbar{
@@ -161,7 +161,7 @@ footer{
     padding: 16px 36px 22px;
     background-color: #fff;
     color: #4F709C;
-    border: 2px solid # #15BF5F;
+    border: 2px solid #4F709C;
     border-radius: 6px;
     margin-bottom: 16px;
     transition: all 0.5s ease;
