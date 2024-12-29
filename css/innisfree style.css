@@ -62,7 +62,7 @@ section1{
 
 .design .web{
     overflow: scroll;
-    border: solid 1px #4F709C;
+    border: solid 1px #15BF5F;
     height: 500px;
     width: 800px;
     float: left;
@@ -74,7 +74,7 @@ section1{
 
 .design .web img{
     width: 100%;
-    border-top: 1px solid #4F709C;
+    border-top: 1px solid #15BF5F;
 }
 
 .mobile{
@@ -83,7 +83,7 @@ section1{
 
 .design .mobile{
     overflow: scroll;
-    border: solid 1px #4F709C;
+    border: solid 1px #15BF5F;
     height: 500px;
     width: 350px;
     float: left;
@@ -95,7 +95,7 @@ section1{
 
 .design .mobile img{
     width: 100%;
-    border-top: 1px solid #4F709C;
+    border-top: 1px solid #15BF5F;
 }
 
 .web::-webkit-scrollbar{
@@ -141,7 +141,7 @@ footer{
 
 .btn a{
     text-decoration: none;
-    color: #4F709C;
+    color: #15BF5F;
     background-image: none;
 }
 
@@ -160,8 +160,8 @@ footer{
     text-transform: uppercase;
     padding: 16px 36px 22px;
     background-color: #fff;
-    color: #4F709C;
-    border: 2px solid #4F709C;
+    color: #15BF5F;
+    border: 2px solid #15BF5F;
     border-radius: 6px;
     margin-bottom: 16px;
     transition: all 0.5s ease;
